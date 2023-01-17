@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+}
+.sidebar{
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    height: 100vh;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color: blueviolet;*/
+    height: 39vh;
+    width: 80vw;
+    margin-top: 147px;
+    margin-left: 70px;
+    display: flexbox;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 39vh;
+    float:left ;
+    width: 30vw;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif ;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.btn{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: blueviolet;
+    transition: 1s;
+}
+.btn-sm{
+    font-size: 17px;
+    margin-top: 5px;
+}
+.moreabout{
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 23px;
+}
+.contactform{
+    font-family: 'Montserrat', sans-serif ;
+    padding-left: 34px;
+    padding-top: 144px;
+    background-color: cyan;
+    height: 100%;
+}
+.contactform h2{
+    padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 27px 0;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 35vh;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+.blogcontainer h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.blogcontainer{
+    background-color: cyan;
+}
+.blogitem h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.blogitem img{
+    width: 10%;
+}
+.blogitem p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.devinfos{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.sidebargo{
+    position: absolute;
+    transform: translate(-443px,0px);
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 110px;
+}
+@media (max-width:1650px) {
+    /*{
+        /*background-color: blue;*/
+    }
+    /*.sidebar{
+        position: absolute;
+        transform: translate(-443px,0px);/*
+    }
+    
+}
